@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C61E1801D5B36BE00380980 /* YMInitCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C61E17F1D5B36BE00380980 /* YMInitCollectionView.m */; };
 		4CE0CE101D4A1CF9005C1E53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0CE0F1D4A1CF9005C1E53 /* main.m */; };
 		4CE0CE131D4A1CF9005C1E53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0CE121D4A1CF9005C1E53 /* AppDelegate.m */; };
 		4CE0CE161D4A1CF9005C1E53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0CE151D4A1CF9005C1E53 /* ViewController.m */; };
@@ -21,6 +22,7 @@
 		4CE0CE4C1D4A1D60005C1E53 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0CE451D4A1D60005C1E53 /* 4.png */; };
 		4CE0CE4D1D4A1D60005C1E53 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0CE461D4A1D60005C1E53 /* 5.png */; };
 		4CE0CE4E1D4A1D60005C1E53 /* YMInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0CE471D4A1D60005C1E53 /* YMInfiniteScrollView.m */; };
+		EE7FAB96D954870DE22A050B /* libPods-YMInfiniteScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDD3A5413EDAB8C4E91FF95 /* libPods-YMInfiniteScrollView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C61E17E1D5B36BE00380980 /* YMInitCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMInitCollectionView.h; sourceTree = "<group>"; };
+		4C61E17F1D5B36BE00380980 /* YMInitCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMInitCollectionView.m; sourceTree = "<group>"; };
 		4CE0CE0B1D4A1CF9005C1E53 /* YMInfiniteScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMInfiniteScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE0CE0F1D4A1CF9005C1E53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CE0CE111D4A1CF9005C1E53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +68,9 @@
 		4CE0CE461D4A1D60005C1E53 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		4CE0CE471D4A1D60005C1E53 /* YMInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMInfiniteScrollView.m; sourceTree = "<group>"; };
 		4CE0CE481D4A1D60005C1E53 /* YMInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMInfiniteScrollView.h; sourceTree = "<group>"; };
+		787808B602CC47AC446FD9E8 /* Pods-YMInfiniteScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMInfiniteScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMInfiniteScrollView/Pods-YMInfiniteScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		894FFC996E226AAC0E8D13E9 /* Pods-YMInfiniteScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMInfiniteScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMInfiniteScrollView/Pods-YMInfiniteScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		9DDD3A5413EDAB8C4E91FF95 /* libPods-YMInfiniteScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YMInfiniteScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE7FAB96D954870DE22A050B /* libPods-YMInfiniteScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33ADD7F40B45C665A3919CFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				894FFC996E226AAC0E8D13E9 /* Pods-YMInfiniteScrollView.debug.xcconfig */,
+				787808B602CC47AC446FD9E8 /* Pods-YMInfiniteScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4CE0CE021D4A1CF9005C1E53 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +115,8 @@
 				4CE0CE271D4A1CF9005C1E53 /* YMInfiniteScrollViewTests */,
 				4CE0CE321D4A1CF9005C1E53 /* YMInfiniteScrollViewUITests */,
 				4CE0CE0C1D4A1CF9005C1E53 /* Products */,
+				33ADD7F40B45C665A3919CFA /* Pods */,
+				65282B5B247EB1BE8D6DE6E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +145,8 @@
 				4CE0CE1C1D4A1CF9005C1E53 /* LaunchScreen.storyboard */,
 				4CE0CE1F1D4A1CF9005C1E53 /* Info.plist */,
 				4CE0CE0E1D4A1CF9005C1E53 /* Supporting Files */,
+				4C61E17E1D5B36BE00380980 /* YMInitCollectionView.h */,
+				4C61E17F1D5B36BE00380980 /* YMInitCollectionView.m */,
 			);
 			path = YMInfiniteScrollView;
 			sourceTree = "<group>";
@@ -168,6 +189,14 @@
 			path = resources;
 			sourceTree = "<group>";
 		};
+		65282B5B247EB1BE8D6DE6E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DDD3A5413EDAB8C4E91FF95 /* libPods-YMInfiniteScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CE0CE381D4A1CF9005C1E53 /* Build configuration list for PBXNativeTarget "YMInfiniteScrollView" */;
 			buildPhases = (
+				1048183B3636E0CB447E2AEC /* Check Pods Manifest.lock */,
 				4CE0CE071D4A1CF9005C1E53 /* Sources */,
 				4CE0CE081D4A1CF9005C1E53 /* Frameworks */,
 				4CE0CE091D4A1CF9005C1E53 /* Resources */,
+				0F2DF6395196D011B969414D /* Embed Pods Frameworks */,
+				6277A6959810AAEBF39117DF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -298,6 +330,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F2DF6395196D011B969414D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMInfiniteScrollView/Pods-YMInfiniteScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1048183B3636E0CB447E2AEC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6277A6959810AAEBF39117DF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMInfiniteScrollView/Pods-YMInfiniteScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CE0CE071D4A1CF9005C1E53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -307,6 +387,7 @@
 				4CE0CE131D4A1CF9005C1E53 /* AppDelegate.m in Sources */,
 				4CE0CE101D4A1CF9005C1E53 /* main.m in Sources */,
 				4CE0CE4E1D4A1D60005C1E53 /* YMInfiniteScrollView.m in Sources */,
+				4C61E1801D5B36BE00380980 /* YMInitCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +528,7 @@
 		};
 		4CE0CE391D4A1CF9005C1E53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894FFC996E226AAC0E8D13E9 /* Pods-YMInfiniteScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YMInfiniteScrollView/Info.plist;
@@ -458,6 +540,7 @@
 		};
 		4CE0CE3A1D4A1CF9005C1E53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 787808B602CC47AC446FD9E8 /* Pods-YMInfiniteScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YMInfiniteScrollView/Info.plist;
@@ -532,6 +615,7 @@
 				4CE0CE3A1D4A1CF9005C1E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CE0CE3B1D4A1CF9005C1E53 /* Build configuration list for PBXNativeTarget "YMInfiniteScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +624,7 @@
 				4CE0CE3D1D4A1CF9005C1E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CE0CE3E1D4A1CF9005C1E53 /* Build configuration list for PBXNativeTarget "YMInfiniteScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +633,7 @@
 				4CE0CE401D4A1CF9005C1E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
